@@ -12,10 +12,11 @@ wellbeing.
 
 ## Repository Structure
 
--insy6500_project
-	-data: data set
-	-notebooks: any work we develop
-	-streamlit: any streamlit files
+- insy6500_project
+	- data: data set
+	- notebooks: any work we develop
+	- streamlit: any streamlit files
+	- documentation: our notes from group meetings
 
 ## Project Overview
 

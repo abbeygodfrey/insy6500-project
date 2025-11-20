@@ -1,0 +1,18 @@
+1) analysis of data - done by 11/24
+	-missing? bad? outliers?
+2) find patterns - done by 12/1
+	-difference between gender and age 
+		-compare men and women that have the same range amount of screen time and see if either gender is 
+more prone to mental illness
+		-do same thing with age and education level
+	-is there a coorelation between amount of time spent studying on devices with anxiety or depression
+	-is there a connection between stress level and income level regardless of screen time
+	-is happiness lower the larger social media hours are
+	-is anxiety higher in people with lower happiness scores
+	-do people who use screens less focus better? and do people who use social media less specifically focus 
+better?
+	-what are the social media habits and education level of those with the high risk flag
+	-does focus change with device type?
+	-does stress level increase with number of notifications?
+3) make streamlit - done by 12/3
+4) record video	- do on 12/4
