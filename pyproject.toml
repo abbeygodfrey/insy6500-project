@@ -1,8 +1,7 @@
 [project]
 name = "Digital-Benchmarking"
 version = "0.1.0"
-description = "This is the course project for INSY 
-6500"
+description = "This is the course project for INSY 6500"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
