@@ -10,3 +10,6 @@ dependencies = [
     "seaborn",
     "streamlit",
 ]
+
+[tool.poetry]
+package-mode = false
