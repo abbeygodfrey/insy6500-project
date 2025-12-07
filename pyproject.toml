@@ -5,8 +5,8 @@ description = "This is the course project for INSY 6500"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "numpy>=2.0.2",
-    "pandas>=2.3.3",
+    "numpy",
+    "pandas",
     "seaborn",
-    "streamlit>=1.50.0",
+    "streamlit",
 ]
