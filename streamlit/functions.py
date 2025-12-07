@@ -3,9 +3,12 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
+from pathlib import Path
+
+BD = Path(__file__).parent
 
 def load_data():
-    df_raw = pd.read_csv("../notebooks/Data.csv")
+    df_raw = pd.read_csv(BD / "Data.csv")
     numeric_cols = df_raw.select_dtypes(include=[np.number]).columns.tolist()
 
     def remove_outliers_iqr(dataframe, columns, threshold=1.5):
