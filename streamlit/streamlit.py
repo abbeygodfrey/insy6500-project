@@ -33,9 +33,9 @@ with mental illness levels sharing a positive correlation with screen time. We
 anticipated that females will on average have higher levels of anxiety, depression, 
 and stress.""")
 
-g_a = Image.open('g_a.png') 
-g_d = Image.open('g_d.png')
-g_s = Image.open('g_s.png')
+g_a = Image.open(BD / 'g_a.png') 
+g_d = Image.open(BD / 'g_d.png')
+g_s = Image.open(BD / 'g_s.png')
 
 col1, col2, col3 = st.columns(3)
 
@@ -62,9 +62,9 @@ We anticipated that the lower the education level, the higher the mental illness
 reports.
 """)
 
-e_a = Image.open('e_a.png')
-e_d = Image.open('e_d.png')
-e_s = Image.open('e_s.png')
+e_a = Image.open(BD / 'e_a.png')
+e_d = Image.open(BD / 'e_d.png')
+e_s = Image.open(BD / 'e_s.png')
 
 col1, col2, col3 = st.columns(3)
 
@@ -90,9 +90,9 @@ anticipated that teenagers and young adults will have higher levels of
 mental illness in comparison to those older in age. 
 """)
 
-a_a = Image.open('a_a.png')
-a_d = Image.open('a_d.png')
-a_s = Image.open('a_s.png')
+a_a = Image.open(BD / 'a_a.png')
+a_d = Image.open(BD / 'a_d.png')
+a_s = Image.open(BD / 'a_s.png')
 
 col1, col2, col3 = st.columns(3)
 
@@ -116,9 +116,9 @@ between studying online and mental illness. We assume that more time
 spent studying with a screen will lead to higher levels of mental 
 illness.""")
 
-s_a = Image.open('s_a.png')
-s_d = Image.open('s_d.png')
-s_s = Image.open('s_s.png')
+s_a = Image.open(BD / 's_a.png')
+s_d = Image.open(BD / 's_d.png')
+s_s = Image.open(BD / 's_s.png')
 
 col1, col2, col3 = st.columns(3)
 
@@ -141,7 +141,7 @@ st.write("""#### What are the effects of social media usage and happiness scores
 st.write("""We hypothesize there is a strong inverse relationship between happiness and social media usage. In 
 this relationship, we assume more time spent on social media will lead to lower happiness scores.""")
 
-h_a = Image.open('h_a.png')
+h_a = Image.open(BD / 'h_a.png')
 st.image(h_a, caption = "Happiness vs Anxiety")
 
 st.write("""The data indicates there is no variation with happiness 
@@ -154,7 +154,7 @@ st.write("""We predict an inverse relationship between focus scores
 and social media usage. In this case, as social media usage 
 increases, the focus score will decrease.""")
 
-s_f = Image.open('s_f.png')
+s_f = Image.open(BD / 's_f.png')
 st.image(s_f, caption = "Affect of Time Spent on Social Media on Focus")
 
 st.write("""As expected, there is an inverse relationship between 
@@ -168,7 +168,7 @@ between number of notifications and levels of stress. We expect that
 an increase in notifications will lead to higher levels of 
 stress.""")
 
-s_n = Image.open('s_n.png')
+s_n = Image.open(BD / 's_n.png')
 st.image(s_n, caption = "Affect of Number of Notifications on Stress")
 
 st.write("""The data proves the hypothesis, there is a positive 
@@ -181,7 +181,7 @@ device usage and sleep quality. In this relationship, as device
 hours per day increases, we expect sleep quality levels to 
 decrease.""")
 
-sq = Image.open('sq.png')
+sq = Image.open(BD / 'sq.png')
 st.image(sq, caption = "Affect of Device Hours per Day on Sleep Quality")
 
 st.write("""As expected, as device hours increase, sleep quality 
