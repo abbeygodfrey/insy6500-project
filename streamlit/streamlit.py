@@ -1,6 +1,9 @@
 import streamlit as st
 from functions import load_data, create_hist, split_hist
 from PIL import Image
+from pathlib import Path
+
+BD = Path(__file__).parent
 
 st.set_page_config(page_title = 'EDA Project - Digital Lifestyle Benchmark', layout = 'wide')
 st.title("Digital Lifestyle Benchmark Data Analysis")
@@ -18,7 +21,7 @@ df = load_data()
 #fig = create_corr(df)
 #st.pyplot(fig)
 
-corr = Image.open('corr.png')
+corr = Image.open(BD / 'corr.png')
 st.image(corr, caption = 'Correlation Matrix of Observed Variables')
 
 st.write("""
